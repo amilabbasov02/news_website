@@ -162,7 +162,7 @@ header{
 }
 .category_head.active{
     height: auto;
-    padding: 25px 0;
+    padding-top: 25px;
 }
 .category_head a{
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -175,4 +175,201 @@ header{
     opacity: 1;
     padding: 5px 10px;
     margin: 0 5px;
+    display: inline-block;
+}
+.manshet_text{
+    font: normal normal bold 30px/36px SFPro;
+    letter-spacing: 0px;
+    color: #0E1013;
+    padding: 14px 20px;
+    background: #FFFFFF;
+    height: 162px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4; 
+    overflow: hidden;
+}
+#manshet{
+    background: #F1F3F4;
+    padding: 25px 0 20px 0;
+}
+#manshet .container{
+    display: flex;
+    justify-content: space-between;
+}
+.slider .item{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+.slider{
+    max-width: 740px;
+}
+.owl-nav{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 60%;
+    height: 0;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.owl-nav button{
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.news_list{
+    background: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    max-width: 500px;
+    padding: 0 20px 23px 20px;
+    width: 100%;
+}
+.news_list > div{
+    max-height: 477px;
+    overflow-y: scroll;
+}
+.select_list{
+    display: flex;
+    flex-direction: row;
+    margin: 0 -20px;
+}
+.select_list a{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    font: normal normal normal 14px/16px SFPro;
+    letter-spacing: 0px;
+    color: #0E1013;
+    opacity: 1;
+    padding: 12px 0;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+}
+.select_list a.active{
+    background: #D20F26;
+    color: #FFFFFF;
+}
+.select_list a:hover{
+    background: #D20F26;
+    color: #FFFFFF;
+}
+.lent_row{
+    width: 24px;
+    height: 24px;
+    background: #E8EAED;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal normal 13px/15px SFPro;
+    letter-spacing: 0px;
+    color: #80868B;
+    opacity: 1;
+    margin-right: 10px;
+}
+.lent_date{
+    font: normal normal normal 13px/15px SFPro;
+    letter-spacing: 0px;
+    color: #80868B;
+    opacity: 1;
+}
+.item_text{
+    font: normal normal bold 16px/19px SFPro;
+    letter-spacing: 0px;
+    color: #003366;
+    opacity: 1;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+}
+.news_item a{
+    display: flex;
+}
+.item_head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.news_item img{
+    width: 94px;
+    height: 94px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 16px;
+}
+.top_news_block{
+    padding-top: 21px;
+}
+.lent_news_block{
+    padding-top: 21px;
+}
+.news_item a:hover .item_text{
+    color: #0E1013;
+}
+.news_item{
+    margin-bottom: 20px;
+}
+.news_list > div::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.news_list > div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.news_list > div::-webkit-scrollbar-thumb {
+    background: #D20F26;
+    border-radius: 4px;
+}
+
+.news_list > div::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+.news_list > div {
+    scrollbar-width: thin; 
+    scrollbar-color: red #f1f1f1;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    margin-right: -20px;
+    padding-right: 20px;
+}
+.select_list{
+    overflow: hidden !important;
+    padding-right: 0 !important;
 }
