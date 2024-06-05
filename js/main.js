@@ -24,3 +24,31 @@ $(".select_list a").click(function () {
         $('.top_news_block').css('display', 'block');
     }
 })
+$(".article_head").css("font-size", "38px");
+$(".article_text").css("font-size", "18px");
+$(".text_plus").click(function() {
+    var article = $(".article_text");
+    var title = $(".article_head");
+    var articleFontSize = parseFloat(article.css("font-size"));
+    var titleFontSize = parseFloat(title.css("font-size"));
+    if (articleFontSize < 26) {
+        article.css("font-size", (articleFontSize + 2) + "px");
+        title.css("font-size", (titleFontSize + 1) + "px");
+    }
+});
+$(".text_minus").click(function() {
+    var article = $(".article_text");
+    var title = $(".article_head");
+    var articleFontSize = parseFloat(article.css("font-size"));
+    var titleFontSize = parseFloat(title.css("font-size"));
+    if (articleFontSize > 14) {
+        article.css("font-size", (articleFontSize - 2) + "px");
+        title.css("font-size", (titleFontSize - 1) + "px");
+    }
+});
+$(".text_reset").click(function() {
+    var article = $(".article_text");
+    var title = $(".article_head");
+    article.css("font-size", "18px");
+    title.css("font-size", "38px");
+});
