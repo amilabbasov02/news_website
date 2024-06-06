@@ -652,3 +652,6 @@ footer{
     background: #FFFFFF;
     min-height: 513px;
 }
+.category_head .head_end{
+    display: none;
+}

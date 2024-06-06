@@ -1,0 +1,125 @@
+@media only screen and (max-width:1260px){
+    .container{
+        padding: 0 16px;
+    }
+    #manshet .container{
+        flex-direction: column;
+    }
+    .slider{
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .manshet_image{
+        max-width: 100%;
+        max-height: 400px;
+    }
+    .manshet_image img{
+        height: 100%;
+        max-height: 400px;
+        object-fit: cover;
+    }
+    .news_list{
+        width: 100%;
+        max-width: 100%;
+    }
+    .news_card{
+        max-width: 25%;
+        margin: 0;
+        padding: 0 10px 20px 10px;
+        background: transparent;
+        box-shadow: none;
+    }
+    .news_card .card_body{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #0E101314;
+    }
+    #article .container{
+        flex-wrap: wrap;
+    }
+    .article_main{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width:992px){
+    .news_card{
+        max-width: 33.33%;
+    }
+    .head_end form input {
+        position: absolute;
+        right: 20px;
+    }
+    .head_end form {
+        position: relative;
+    }
+    .category_foot {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .category_foot a{
+        margin-bottom: 10px;
+    }
+    .category_head a {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width:768px){
+    .category_head.active {
+        padding: 10px 0;
+    }
+    #manshet, #about {
+        padding: 10px 0 10px 0;
+    }
+    header .social_media {
+        display: none;
+    }
+    .news_card {
+        max-width: 50%;
+    }
+    .head_end form.active input {
+        width: 155px;
+    }
+}
+@media only screen and (max-width:565px){
+    header .head_end{
+        display: none;
+    }
+    header .left_head{
+        order: 1;
+        justify-content: flex-end;
+    }
+    .category_head{
+        background: #003366;
+        margin: 0;
+    }
+    .category_head .head_end{
+        display: flex;
+        align-items: center;
+    }
+    .category_head .head_end a{
+        margin-bottom: 0;
+        background: transparent;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    .news_card {
+        max-width: 100%;
+    }
+    .img_block{
+        max-width: 100%;
+    }
+    .manshet_text {
+        font: normal normal bold 24px/28px SFPro;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+        overflow: hidden;
+        max-height: 157px;
+    }
+    .category_headline {
+        font: normal normal bold 22px/26px SFPro;
+    }
+}
